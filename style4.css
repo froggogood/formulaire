@@ -47,15 +47,12 @@ form{
 {
     width: 75%;
 }
-input,select
+input,select,textarea
 {
     width: 100%;
     padding: 10px;
     border: solid 1px grey;
     border-radius: 5px;
-}
-input#subject{
-    height: 100px;
 }
 
 .button{
