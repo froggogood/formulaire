@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("./font/Regular.ttf");
+}
+
+body{
+    font-family: "Raleway", serif;
+    background-color: lightgray;
+}
+#main{
+    max-width: 768px;
+    min-width: 250px;
+    margin:auto;
+    margin-top: 20px;
+    
+}
+header{
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+#icon{
+    width: 5%;
+    margin-right: 10px;
+}
+form{
+    position: relative;
+    top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.row{
+    display: flex;
+    margin: 10px 0px;
+}
+.col-25{
+    width: 25%;
+}
+.col-75
+{
+    width: 75%;
+}
+input,select
+{
+    width: 100%;
+    padding: 10px;
+    border: solid 1px grey;
+    border-radius: 5px;
+}
+input#subject{
+    height: 100px;
+}
+
+.button{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.button:hover{
+    position: relative;
+    bottom: 2px;
+}
+#cancel{
+    background-color: rgb(216, 121, 125);
+    margin-right: 5px;
+}
+#signup{
+    background-color: rgb(126, 228, 157);
+    margin-left: 5px;
+}
+@media all and (min-width:250px) and (max-width:768px) {
+    .row {
+        flex-direction: column;
+    }
+    .col-75
+    {
+        width: auto;
+    }
+    #cancel , #signup{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+}

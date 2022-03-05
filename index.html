@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="main">
+        <header>
+            <img src="hotel.png" alt="hotel icon" id="icon">
+            <h1>Reservation Hotel</h1>
+        </header>
+        <form action="get">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fullname">Fullname</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="fullname" id="fullname">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="birthday">Birthday</label>
+                </div>
+                <div class="col-75">
+                    <input type="date" name="birthday" id="birthday">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="website">Website</label>
+                </div>
+                <div class="col-75">
+                    <input type="url" name="website" id="website">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="courriel">Courriel</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" name="courriel" id="courriel">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Subject</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="subject" id="subject">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Country</label>
+                </div>
+                <div class="col-75">
+                    <select name="country" id="country">
+                        <optgroup label="Africa">
+                        <option value="Tunisia">Tunisia</option>
+                        <option value="Chad">Chad</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                            <option value="France">France</option>
+                            <option value="Germany">Germany</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="nights">Nights</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" name="nights" id="nights">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    
+                </div>
+                <div class="col-75">
+                    <input type="number" name="price per night" id="price">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="total">Total</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" name="total" id="total" value="0">
+                </div>
+            </div>
+            <div class="row">
+                <input type="button" value="Cancel" id="cancel" class="button">
+                <input type="button" value="Sign Up" id="signup" class="button">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
