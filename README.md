@@ -1,3 +1,3 @@
 # formulaire
-testing CSS propreties 
-trying responsive design without frameworks
+testing CSS propreties\n
+trying responsive design without frameworks\n
